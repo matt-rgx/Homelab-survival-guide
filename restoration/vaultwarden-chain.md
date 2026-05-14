@@ -50,7 +50,7 @@ Once Vaultwarden is restored:
 - SSH keys → reconnect to server / Git / cloud providers
 - rclone key → access Borg backup on Hetzner
 - 2FA for DNS, cloud, Git providers → access to external services
-- Infisical admin credentials → log into Infisical UI, generate a new client secret for the local admin machine identity, recreate `/home/<user>/.config/infisical-admin` (chmod 600) on the server — required for local admin tooling and `manual_xyops_update.sh`
+- Infisical bootstrap credentials → log into Infisical UI, generate a new client secret for the local admin machine identity, recreate `/home/<user>/.config/infisical-bootstrap` (chmod 600) on the server — required for local admin tooling and `manual_xyops_update.sh`
 
 ## ⚠️ Critical points
 

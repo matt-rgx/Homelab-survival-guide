@@ -25,7 +25,7 @@ Two stacks cannot use Infisical due to circular dependencies — they use a loca
 
 One additional bootstrap file exists for local admin tooling:
 
-- **`/home/<user>/.config/infisical-admin`** (`chmod 600`, outside of Git) — machine identity credentials used by local admin tooling to authenticate to Infisical and retrieve any secret at runtime. This is the single entry point for all non-container secret access (xyOps API, Forgejo token, HA token, etc.).
+- **`/home/<user>/.config/infisical-bootstrap`** (`chmod 600`, outside of Git) — machine identity credentials used by local admin tooling to authenticate to Infisical and retrieve any secret at runtime. This is the single entry point for all non-container secret access (xyOps API, Forgejo token, HA token, etc.).
 
 These are the only exceptions. All other stacks use Infisical exclusively.
 
